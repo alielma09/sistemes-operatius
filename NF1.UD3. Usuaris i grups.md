@@ -76,3 +76,10 @@ sudo adduser test1
 ```
 
 ![Usuari nou](img/8_useradd.png)
+
+## 3. Creació i configuració d'usuaris
+
+Ara creem els usuaris `pau_dev` i `laura_dev` amb les contrasenyes `usuari`
+
+![Usuari nou](img/9_lauradev.png)
+![Usuari nou](img/9_paudev.png)
