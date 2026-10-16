@@ -150,7 +150,16 @@ cat etc/passwd
 
 ![passwd](img/14_passwd.png)
 
-Ara consultem /etc/shadow
+Ara intentem consultar /etc/shadow pero el nostre usuari no pot.
 > El directori /etc/shadow conté les contrasenyes dels usuaris pero encriptades en `hash`perque ningú les pugui lleguir a simple vista.
+
+```bash
+sudo cat/etc/shadow
+cat /etc/shadow
+
+*Permision denied*
+```
+
+![Permisió denegada](img/15_denegado.png)
 
 
