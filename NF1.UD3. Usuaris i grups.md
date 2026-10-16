@@ -14,6 +14,5 @@ Les ordres següents creen els grups devs, sysadmin i auditor.
 sudo addgroup devs
 sudo addgroup sysadmin
 sudo addgroup auditor
-
 ```
 
