@@ -179,3 +179,9 @@ sudo passwd -l pau_dev
 
 ![Bloqueig compte paudev](img/16_bloq_paudev.png)
 
+Comprovem els usuaris amb;
+
+```bash
+cat /etc/passwd
+```
+![passwd](img/17_passwd.png)
