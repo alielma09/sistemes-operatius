@@ -46,5 +46,10 @@ cd /etc/skel
 
 sudo nano .bashrc
 ```
-
 ![Edició bashrc](img/5_nano_bashrc.png)
+
+Comprovem la comanda alias ll
+```bash
+alias ll
+```
+![Comprovem comanda](img/6_alias_ll.png)
