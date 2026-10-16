@@ -10,15 +10,16 @@ L’objectiu d’aquesta tasca és practicar l’administració d’usuaris i gr
 Les ordres següents creen els grups devs, sysadmin i auditor.
 
 ![Creació de grups](img/1_groupadd.png)
+
 ```bash
 sudo addgroup devs
 sudo addgroup sysadmin
 sudo addgroup auditor
 ```
+
 A continuació comprovem els grups a la carpeta `/etc/group`
 
 ![Comprobació amb el cat](img/2_cat_groups.png)
-
 
 ## 2. Gestió dels perfils d'usuari
 
@@ -29,6 +30,7 @@ Creem l'arxiu benvinguda.txt i posem les normatives.
 ```bash
 nano ~/benvinguda.txt
 ```
+
 ![Normatives dins el nano](img/3_texto_nano.png)
 
 Creem el directori `Documents` que utilitzarán els usuaris nous.
@@ -36,34 +38,41 @@ Creem el directori `Documents` que utilitzarán els usuaris nous.
 ```bash
 mkdir -p ~/Documents
 ```
-![Creació carpeta i ls](img/4_mkdir_ls.png)
 
+![Creació carpeta i ls](img/4_mkdir_ls.png)
 
 Entrem al directori plantilla `/etc/skel` i editem el fitxer `.bashrc` per configurar l’àlies ll.
 ![Moure al skel i nano](img/5_cd_nano.png)
+
 ```bash
 cd /etc/skel
 
 sudo nano .bashrc
 ```
+
 ![Edició bashrc](img/5_nano_bashrc.png)
 
 Comprovem la comanda alias ll
+
 ```bash
 alias ll
 ```
+
 ![Comprovem comanda](img/6_alias_ll.png)
 
 Editem la config d’adduser per comprovar que el shell per defecte és Bash.
+
 ```bash
 sudo nano /etc/adduser.conf
 ```
+
 ![Linea de codi](img/7_comanda.png)
 ![Config de l’usuari](img/7_comprov.png)
 
-Creem l'usuari de prova `test1`
+Creem l'usuari de prova `test1` amb la contrasenya `test1`
 
 ```bash
 sudo adduser test1
 ```
 
+![Usuari nou](img/8_useradd.png)
