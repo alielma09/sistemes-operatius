@@ -150,4 +150,7 @@ cat etc/passwd
 
 ![passwd](img/14_passwd.png)
 
+Ara consultem /etc/shadow
+> El directori /etc/shadow conté les contrasenyes dels usuaris pero encriptades en `hash`perque ningú les pugui lleguir a simple vista.
+
 
