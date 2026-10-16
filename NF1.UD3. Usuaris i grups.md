@@ -103,8 +103,10 @@ Ara creem els usuaris marc_sys i auditor, amb les comandes:
 
 -C: Serveix per si vols posar alguna descripico al conté.
 
-
 ```bash
 sudo useradd -m -d /home/marc_sys -s /bin/bash -g sysadmin -G devs -c "Marc Soler" marc_sys
 sudo useradd -m -d /home/auditor -s /bin/bash -g sysadmin -G devs -c "Marc Soler" auditor 
 ```
+
+![Usuaris nous](img/10_spow.png)
+
