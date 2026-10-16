@@ -133,3 +133,17 @@ id marc_sys
 
 ![Marcsys](img/12_marcsys.png)
 
+Iniciem sesió amb l'usuari `pau_dev`
+
+```bash
+su pau_dev
+```
+
+![paudev](img/13_paudev.png)
+
+Consultem /etc/passwd 
+> El directori /etc/passwd conté informació sobre grups i usuaris.
+
+![passwd](img/14_passwd.png)
+
+
