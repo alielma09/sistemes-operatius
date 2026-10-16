@@ -40,3 +40,10 @@ mkdir -p ~/Documents
 
 
 Entrem al directori plantilla `/etc/skel` i editem el fitxer `.bashrc` per configurar l’àlies ll.
+```bash
+cd /etc/skel
+
+sudo nano .bashrc
+```
+
+![Edició bashrc](img/5_nano_bashrc.png)
