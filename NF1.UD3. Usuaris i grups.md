@@ -144,6 +144,10 @@ su pau_dev
 Consultem /etc/passwd 
 > El directori /etc/passwd conté informació sobre grups i usuaris.
 
+```bash
+cat etc/passwd
+```
+
 ![passwd](img/14_passwd.png)
 
 
