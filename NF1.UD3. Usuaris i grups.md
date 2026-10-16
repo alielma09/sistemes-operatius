@@ -90,3 +90,21 @@ Comprovem amb la comanda
 ```bash
 cat /etc/passwd
 ```
+
+Ara creem els usuaris marc_sys i auditor, amb les comandes:
+
+-M: Serveix per crear direcoris
+
+-D: S'utilitza per marcar la ruta hon volem que estigui el direcortri
+
+-S: Es per definir la terminal que ulizitzara
+
+-G: Es per agregarlo al grup directament
+
+-C: Serveix per si vols posar alguna descripico al conté.
+
+
+```bash
+sudo useradd -m -d /home/marc_sys -s /bin/bash -g sysadmin -G devs -c "Marc Soler" marc_sys
+sudo useradd -m -d /home/auditor -s /bin/bash -g sysadmin -G devs -c "Marc Soler" auditor 
+```
