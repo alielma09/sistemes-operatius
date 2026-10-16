@@ -30,3 +30,13 @@ Creem l'arxiu benvinguda.txt i posem les normatives.
 nano ~/benvinguda.txt
 ```
 ![Normatives dins el nano](img/3_texto_nano.png)
+
+Creem el directori `Documents` que utilitzarán els usuaris nous.
+
+```bash
+mkdir -p ~/Documents
+```
+![Creació carpeta i ls](img/4_mkdir_ls.png)
+
+
+Entrem al directori plantilla `/etc/skel` i editem el fitxer `.bashrc` per configurar l’àlies ll.
