@@ -123,3 +123,6 @@ sudo usermod -aG auditor auditor
 
 ## Inspecció del sistema i fitxers de configuració
 
+Utilitzem la comanda id
+
+> La comanda id permet comprovar l’identificador d’usuari, el grup principal i els grups secundaris de marc_sys.
