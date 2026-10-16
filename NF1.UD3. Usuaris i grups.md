@@ -53,3 +53,10 @@ Comprovem la comanda alias ll
 alias ll
 ```
 ![Comprovem comanda](img/6_alias_ll.png)
+
+Editem la config d’adduser per comprovar que el shell per defecte és Bash.
+
+![Config de l’usuari](img/7_comprov.png)
+```bash
+sudo nano /etc/adduser.conf
+```
