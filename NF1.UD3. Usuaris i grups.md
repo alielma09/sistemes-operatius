@@ -55,8 +55,15 @@ alias ll
 ![Comprovem comanda](img/6_alias_ll.png)
 
 Editem la config d’adduser per comprovar que el shell per defecte és Bash.
-
-![Config de l’usuari](img/7_comprov.png)
 ```bash
 sudo nano /etc/adduser.conf
 ```
+![Linea de codi](img/7_comanda.png)
+![Config de l’usuari](img/7_comprov.png)
+
+Creem l'usuari de prova `test1`
+
+```bash
+sudo adduser test1
+```
+
