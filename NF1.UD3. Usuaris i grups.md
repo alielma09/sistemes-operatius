@@ -141,7 +141,7 @@ su pau_dev
 
 ![paudev](img/13_paudev.png)
 
-Consultem /etc/passwd 
+Consultem `/etc/passwd` 
 > El directori /etc/passwd conté informació sobre grups i usuaris.
 
 ```bash
@@ -150,7 +150,7 @@ cat etc/passwd
 
 ![passwd](img/14_passwd.png)
 
-Ara intentem consultar /etc/shadow pero el nostre usuari no pot.
+Ara intentem consultar `/etc/shadow` pero el nostre usuari no pot.
 > El directori /etc/shadow conté les contrasenyes dels usuaris pero encriptades en `hash`perque ningú les pugui lleguir a simple vista.
 
 ```bash
@@ -162,4 +162,20 @@ cat /etc/shadow
 
 ![Permisió denegada](img/15_denegado.png)
 
+Quin és el directori plantilla que s'utilitza per omplir el /home d'un usuari nou quan es crea?
+
+El direcotri plantilla que s'utiliza es /etc/skel
+Quina comanda o fitxer en defineix aquesta configuració?
+
+useradd -d
+
+## Manteniment, bloqueig i eliminació
+
+Bloquejem el compte `pau_dev` (després es pot desbloquejar facilment)
+
+```bash
+sudo passwd -l pau_dev
+```
+
+![Bloqueig compte paudev](img/16_bloq_paudev.png)
 
