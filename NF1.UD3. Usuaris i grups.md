@@ -15,12 +15,18 @@ sudo addgroup devs
 sudo addgroup sysadmin
 sudo addgroup auditor
 ```
+A continuació comprovem els grups a la carpeta `/etc/group`
+
+![Comprobació amb el cat](img/2_cat_groups.png)
+
+
 ## 2. Gestió dels perfils d'usuari
 
-> Pasem al ssh per més comoditat
+> Passem al ssh per més comoditat
 
-Creem l'arxiu benvinguda.txt amb la comanda:
+Creem l'arxiu benvinguda.txt i posem les normatives.
 
 ```bash
 nano ~/benvinguda.txt
 ```
+![Normatives dins el nano](img/3_texto_nano.png)
