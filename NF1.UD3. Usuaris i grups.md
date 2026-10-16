@@ -40,6 +40,7 @@ mkdir -p ~/Documents
 
 
 Entrem al directori plantilla `/etc/skel` i editem el fitxer `.bashrc` per configurar l’àlies ll.
+![Moure al skel i nano](img/5_cd_nano.png)
 ```bash
 cd /etc/skel
 
