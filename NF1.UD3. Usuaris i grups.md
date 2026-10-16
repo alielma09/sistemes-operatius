@@ -9,7 +9,7 @@ L’objectiu d’aquesta tasca és practicar l’administració d’usuaris i gr
 
 Les ordres següents creen els grups devs, sysadmin i auditor.
 
-![Creació de grups](Img/1_groupadd.png)
+![Creació de grups](img/1_groupadd.png)
 ```bash
 sudo addgroup devs
 sudo addgroup sysadmin
