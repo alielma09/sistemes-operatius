@@ -185,3 +185,38 @@ Comprovem els usuaris amb;
 cat /etc/passwd
 ```
 ![passwd](img/17_passwd.png)
+
+Desbloquejem el compte de `pau_dev`
+
+```bash
+sudo passwd -u pau_dev
+```
+
+![Desbloquejem](img/18_desbl.png)
+
+Esborrem el usuari de `auditor` i el seu grup.
+
+```bash
+sudo deluser auditor
+sudo delgroup auditor
+```
+
+![Usuari esborrat](img/19_del.png)
+
+## Personalització de l’entorn d’usuari
+
+Instal·lem el paquet fish.
+
+```bash
+sudo apt install fish
+```
+
+![Instalació del paquet](img/20_fishg.png)
+
+Canviem shell per defecte de `laura_dev`
+
+```bash
+sudo chsh -s /usr/bin/fish laura_dev
+```
+
+![Fem](img/21_.png)
