@@ -110,7 +110,7 @@ sudo useradd -m -d /home/auditor -s /bin/bash -g sysadmin -G devs -c "Marc Soler
 
 ![Usuaris nous](img/10_spow.png)
 
-Modifiquem permisos amb les comandes
+Modifiquem permisos amb les comandes;
 
 ```bash
 sudo usermod -aG devs pau_dev
@@ -118,7 +118,8 @@ sudo usermod -aG devs laura_dev
 sudo usermod -aG devs marc_sys
 sudo usermod -aG auditor auditor
 ```
+
 ![Permisos](img/11_permis.png)
 
-
+## Inspecció del sistema i fitxers de configuració
 
