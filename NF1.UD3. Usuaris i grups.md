@@ -79,7 +79,14 @@ sudo adduser test1
 
 ## 3. Creació i configuració d'usuaris
 
-Ara creem els usuaris `pau_dev` i `laura_dev` amb les contrasenyes `usuari`
+Ara, utilitzant la comanda anterior, creem els usuaris `pau_dev` i `laura_dev` amb les contrasenyes `usuari`.
 
 ![Usuari nou](img/9_lauradev.png)
+
 ![Usuari nou](img/9_paudev.png)
+
+Comprovem amb la comanda
+
+```bash
+cat /etc/passwd
+```
